@@ -1,0 +1,48 @@
+Start testing: Dec 25 17:00 UTC
+----------------------------------------------------------
+1/2 Testing: test_tutorial
+1/2 Test: test_tutorial
+Command: "/bin/sh" "/home/ubuntu/gr-tutorial/build/lib/test_tutorial_test.sh"
+Directory: /home/ubuntu/gr-tutorial/build/lib
+"test_tutorial" start time: Dec 25 17:00 UTC
+Output:
+----------------------------------------------------------
+.
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_tutorial" end time: Dec 25 17:00 UTC
+"test_tutorial" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: qa_my_qpsk_demod_cb
+2/2 Test: qa_my_qpsk_demod_cb
+Command: "/bin/sh" "/home/ubuntu/gr-tutorial/build/python/qa_my_qpsk_demod_cb_test.sh"
+Directory: /home/ubuntu/gr-tutorial/build/python
+"qa_my_qpsk_demod_cb" start time: Dec 25 17:00 UTC
+Output:
+----------------------------------------------------------
+F
+======================================================================
+FAIL: test_001_t (__main__.qa_my_qpsk_demod_cb)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ubuntu/gr-tutorial/python/qa_my_qpsk_demod_cb.py", line 38, in test_001_t
+    self.assertEqual(1,2)
+AssertionError: 1 != 2
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Failed.
+"qa_my_qpsk_demod_cb" end time: Dec 25 17:00 UTC
+"qa_my_qpsk_demod_cb" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 25 17:00 UTC
