@@ -9,3 +9,10 @@ in this package. A quick listing of the details can be found in Python
 after importing by using:
 
     help(tutorial)
+
+To build:
+cmake ..
+make
+sudo make install
+sudo ldconfig
+
